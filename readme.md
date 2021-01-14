@@ -1,0 +1,1 @@
+Traning excercise, project is inside ADO.Net L1
