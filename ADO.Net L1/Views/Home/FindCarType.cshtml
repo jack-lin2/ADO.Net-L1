@@ -1,0 +1,41 @@
+﻿@model IEnumerable<ADO.Net_L1.Models.CarModel>
+
+@{
+    ViewBag.Title = "FindCarType";
+}
+
+<h2>FindCarType</h2>
+
+@{
+    //yes this is terrible, haven't figured out how to do the database query yet
+    string message = "";
+    string regNum = Request["registrationNum"];
+    string getCarType(string regisrationNum) {
+        foreach (var car in Model) {
+            if (car.RegistrationNumber == regNum) {
+                return car.CarType;
+            }
+        }
+        return "error";
+    }
+
+    if (IsPost) {
+        message = "The Car Type for '" + Request["registrationNum"] + "' is " + getCarType(Request["registrationNum"]);
+    }
+}
+<form action="" method="post">
+    <select name="registrationNum" onchange="this.form.submit()">
+        <option>
+            Select Registration Number
+        </option>
+        @foreach (var item in Model) {
+            <option>
+                @Html.DisplayFor(modelItem => item.RegistrationNumber)
+                
+            </option>
+        }
+    </select>
+</form>
+<p>@message</p>
+
+

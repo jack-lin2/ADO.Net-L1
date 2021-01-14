@@ -1,0 +1,28 @@
+﻿@model IEnumerable<ADO.Net_L1.Models.CarModel>
+
+@{
+    ViewBag.Title = "View Car Types";
+}
+
+<h2>ViewCarTypes</h2>
+
+<p>
+    @Html.ActionLink("Create New", "RegisterCar")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CarType)
+        </th>
+
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CarType)
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,9 @@
+C:\Users\Desktop\Documents\Wipro Topgear\C#\DataLibrary\bin\Debug\DataLibrary.dll
+C:\Users\Desktop\Documents\Wipro Topgear\C#\DataLibrary\bin\Debug\DataLibrary.pdb
+C:\Users\Desktop\Documents\Wipro Topgear\C#\DataLibrary\bin\Debug\Dapper.dll
+C:\Users\Desktop\Documents\Wipro Topgear\C#\DataLibrary\bin\Debug\Dapper.xml
+C:\Users\Desktop\Documents\Wipro Topgear\C#\DataLibrary\obj\Debug\DataLibrary.csprojAssemblyReference.cache
+C:\Users\Desktop\Documents\Wipro Topgear\C#\DataLibrary\obj\Debug\DataLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Desktop\Documents\Wipro Topgear\C#\DataLibrary\obj\Debug\DataLibrary.csproj.CopyComplete
+C:\Users\Desktop\Documents\Wipro Topgear\C#\DataLibrary\obj\Debug\DataLibrary.dll
+C:\Users\Desktop\Documents\Wipro Topgear\C#\DataLibrary\obj\Debug\DataLibrary.pdb
